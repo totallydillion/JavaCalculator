@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class GlobalCalculator {
     public static void main(String[] args) {
         
         //creating a listener to the number
