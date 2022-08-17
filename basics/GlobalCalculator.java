@@ -30,19 +30,19 @@ public class GlobalCalculator {
         
         switch(expressionSymbol){
             case "+":
-            System.out.println(number1 + "+"+ number2 + "=" + number1 + number2);
+            System.out.println(number1 + "+"+ number2 + "=" + (number1 + number2));
             break;
             case "-":
             System.out.println(number1 + "-"+ number2 + "=" + (number1 - number2));
             break;
             case "*":
-            System.out.println(number1 + "*"+ number2 + "=" + number1 * number2);
+            System.out.println(number1 + "*"+ number2 + "=" + (number1 * number2));
             break;
             case "/":
-            System.out.println(number1 + "/"+ number2 + "=" + number1 / number2);
+            System.out.println(number1 + "/"+ number2 + "=" + (number1 / number2));
             break;
             case "%":
-            System.out.println(number1 + "%"+ number2 + "=" + number1 %number2);
+            System.out.println(number1 + "%"+ number2 + "=" + (number1 %number2));
             break;
             case "^":
             System.out.println(number1 + "^"+ number2 + "=" + (number1 ^ number2));
